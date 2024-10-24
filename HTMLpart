@@ -5,16 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="9729c9467900e712f46044a2e54da67f.png">
         <link rel="stylesheet" href="index.css">
-        <script src="https://fontawesome.com/v5/icons/volume-mute?s=solid"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     </head>
   <body>
-       <video autoplay loop muted id="videoBack">
+       <video autoplay loop muted id="videoBack">   <i class="fa-solid fa-volume-xmark" id="soundMark"></i>
         <source src="Half-Life 2 episodes One, Two. All main menu backgrounds (online-video-cutter.com)(1).mp4" type="video/mp4">
-       </video> 
-       <i class="fas fa-volume-mute"></i>
+       </video>
        <div class="menu">
         <h1>Heavy-Life</h1>
-        <h2>FIRST EDITION</h2>
+        <h2>FIRST EDITION</h2><i class="fa-solid fa-volume-xmark" id="soundMark"></i>
       <br>
       <br>
       <br>
@@ -46,5 +45,6 @@
       <br>
       <br>
         &copy; André
+        <script src="index.js"></script>
   </body>
 </html>
