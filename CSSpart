@@ -52,3 +52,10 @@ body{
 .letters:hover{
   color:yellow;
 }
+#soundMark{
+  font-size: 30px;
+  margin-left: 95%;
+}
+#soundMark:hover{
+  color:yellow
+}
