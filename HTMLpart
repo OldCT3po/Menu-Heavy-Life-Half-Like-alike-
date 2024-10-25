@@ -3,17 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="9729c9467900e712f46044a2e54da67f.png">
+        <link rel="icon" href="images(4).png">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     </head>
   <body>
-       <video autoplay loop muted id="videoBack">   <i class="fa-solid fa-volume-xmark" id="soundMark"></i>
-        <source src="Half-Life 2 episodes One, Two. All main menu backgrounds (online-video-cutter.com)(1).mp4" type="video/mp4">
-       </video>
+    <img id="image" src="pixelcut-export(1).jpg">
+       <audio autoplay id="audio" src="Triage at Dawn.mp3"></audio>
        <div class="menu">
-        <h1>Shelter-Project</h1>
-        <h2>FIRST EDITION</h2><i class="fa-solid fa-volume-xmark" id="soundMark"></i>
+       <h1 id="first">Shelter-Project</h1>
+        <h2 id="second">FIRST EDITION</h2><i onclick="play()" id="soundMark" class="fa fa-volume-up"></i>
       <br>
       <br>
       <br>
@@ -21,17 +20,16 @@
        &nbsp;&nbsp;&nbsp;<a class="letters" href="#">New Game</a><br>
         <p></p>
         <br>
-        &nbsp;&nbsp;&nbsp;<a class="letters" href="#">Load Game</a><br>
+       &nbsp;&nbsp;&nbsp;<a class="letters" href="#">Load Game</a><br>
         <p></p>
         <br>
-        &nbsp;&nbsp;&nbsp;<a class="letters" href="#">Achviements</a><br>
+       &nbsp;&nbsp;&nbsp;<a class="letters" href="#">Achviements</a><br>
+        <p></p>
+        <br>  
+       &nbsp;&nbsp;&nbsp;<a class="letters" href="#">Options</a><br>
         <p></p>
         <br>
-        &nbsp;&nbsp;&nbsp;<a class="letters" href="#">Options</a><br>
-        <p></p>
-        <br>
-        &nbsp;&nbsp;&nbsp;<a class="letters" href="#">Quit</a><br>
-    </ul>
+       &nbsp;&nbsp;&nbsp;<a class="letters" href="#">Quit</a><br>
       <br>
       <br>
       <br>
@@ -42,9 +40,7 @@
       <br>
       <br>
       <br> 
-      <br>
-      <br>
-        &copy; André
+        <a id="author">&copy; André</a>
         <script src="index.js"></script>
   </body>
 </html>
